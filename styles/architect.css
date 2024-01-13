@@ -92,3 +92,14 @@ nav li{
     }
     
 }
+
+/* main styles start here  */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* teams styles */
+
+.teams-container{
+    display: flex;
+}
