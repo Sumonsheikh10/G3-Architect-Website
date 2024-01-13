@@ -1,0 +1,62 @@
+/* work sans front from google front */
+
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
+    font-family: 'Work Sans', sans-serif;
+
+    /* SHARED STYLES */.
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.btn-primary{
+  background-color:  #FF900E;
+ color: #FFFFFF;
+ border: none;
+ 
+}
+
+/* header styles */
+header{
+    background: rgba(255, 144.05, 13.81, 0.10); 
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #131313;
+    font-size: 45px ;
+    font-weight: 700;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    color: #424242;
+    margin: 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* *banner styles */
+.banner-containt{
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    
+
+}
+.banner-descrption{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
